@@ -1,6 +1,8 @@
 source "https://rubygems.org"
+ruby '>= 2.7'
 gem 'sinatra', '1.0'
 
 gem 'mysql2'
 gem 'json'
-gem 'sinatra/cross_origin'
+gem 'cross_origin'
+gem 'sinatra-cross_origin'

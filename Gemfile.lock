@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cross_origin (0.0.2)
+    json (2.6.0)
+    mysql2 (0.5.3)
+    rack (2.2.3)
+    sinatra (1.0)
+      rack (>= 1.0)
+    sinatra-cross_origin (0.4.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  cross_origin
+  json
+  mysql2
+  sinatra (= 1.0)
+  sinatra-cross_origin
+
+RUBY VERSION
+   ruby 2.7.0p0
+
+BUNDLED WITH
+   2.2.29
