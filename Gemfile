@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '>= 2.7'
+ruby '>= 3.0'
 gem 'sinatra', '1.0'
 
 gem 'mysql2'
