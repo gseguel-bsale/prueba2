@@ -3,6 +3,7 @@ require "mysql2"
 require "json"
 require "sinatra"
 require "sinatra/cross_origin"
+require "rack"
 
 #control de acceso bloqeo pagina web.
 configure do
