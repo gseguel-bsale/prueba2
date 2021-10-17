@@ -48,9 +48,8 @@ end
 
 #select filtro categoria y productoss pagina inicial
 get '/' do 
-    #query_categories = db.query 'SELECT category.id, category.name as categoria, product.name, product.url_image, product.price, product.discount from product INNER JOIN category ON product.category = category.id;'
-    #product_to_json(query_categories)
-    'hello words'
+    query_categories = db.query 'SELECT category.id, category.name as categoria, product.name, product.url_image, product.price, product.discount from product INNER JOIN category ON product.category = category.id;'
+    product_to_json(query_categories)
 end
 
 #filtro para categorias.
